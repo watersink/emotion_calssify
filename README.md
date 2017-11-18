@@ -6,7 +6,9 @@ an emotion classify demo based on keras Introduction: This is an emotion classif
 Test:
 
 """video test""" 
+
 #first prama:ft1.mp4 is a video ,mp4,avi,any is ok 
+
 #second prama:True will show the video result in axis using curve
 
 ea = Emotion_analysis() 
