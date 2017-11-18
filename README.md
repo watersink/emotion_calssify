@@ -16,7 +16,7 @@ ea = Emotion_analysis()
 
 ea.video_analysis("ft1.mp4", True)
 
-![image]( https://github.com/watersink/emotion_calssify.git/master/demo_images/Figure_1.png)
+![image]( https://github.com/watersink/emotion_calssify/raw/master/demo_images/Figure_1.png)
 
 
 """image test""" 
