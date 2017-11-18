@@ -138,14 +138,14 @@ class Emotion_analysis(object):
 
 if __name__=="__main__":
     """video test"""
-    #ea = Emotion_analysis()
-    #ea.video_analysis("ft1.mp4", True)
+    ea = Emotion_analysis()
+    ea.video_analysis("ft1.mp4", True)
 
     """image test"""
-    ea = Emotion_analysis()
-    base_dir="./faces/"
-    for img_dir in os.listdir("./faces/"):
-        ea.image_analysis(os.path.join(base_dir,img_dir))
+    #ea = Emotion_analysis()
+    #base_dir="./faces/"
+    #for img_dir in os.listdir("./faces/"):
+     #   ea.image_analysis(os.path.join(base_dir,img_dir))
 
 
 
